@@ -1,0 +1,10 @@
+H=float(input("enter la valeur de H"))
+gho=float(input("entrer la valeur de masse volumique"))
+g=float(input("entrer la valeur de gravité"))
+L=float(input("entrer la valeur de langeur"))
+P=gho*g*H
+print("la pression est:",P,"pa")
+S=L*H
+print("la surface est:",S,"m")
+F=S*P
+print("la force est:",F,"N")
